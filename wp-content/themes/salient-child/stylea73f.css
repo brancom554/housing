@@ -1,0 +1,118 @@
+/*
+Theme Name: Salient Child Theme
+Description: This is a custom child theme for Salient
+Theme URI:   https://themeforest.net/item/salient-responsive-multipurpose-theme/4363266
+Author: ThemeNectar
+Author URI:  https://themeforest.net/user/themenectar
+Template: salient
+Version: 1.0
+*/
+
+
+
+.gmap-slider {
+	display: none;
+}
+
+
+#locations-row .acf-map {
+    width: 100%;
+    height: 800px;
+}
+@media (max-width: 767px) {
+    #locations-row .acf-map {
+        height: 320px;
+   }
+}
+#locations-row .c-legend {
+    background-color: #FFF;
+    padding: 25px calc(100vw * 0.08);
+}
+#locations-row .c-legend .vc_col-sm-9 {
+    display: flex;
+    align-items: center;
+}
+#locations-row .c-legend .fancy-select-wrap {
+    padding-top: 0 !important;
+    width: 100%;
+    max-width: 250px;
+    background-color: #fff;
+}
+@media (max-width: 1000px) {
+    #locations-row .c-legend .fancy-select-wrap {
+        max-width: 100%;
+   }
+}
+#locations-row .c-legend_select .select2-choice:hover {
+    border-color: #fff !important;
+    background-color: #fff !important;
+    color: #000 !important;
+}
+#locations-row .c-legend_select .select2-choice:hover .select2-arrow b:after {
+    border-top-color: #666 !important;
+}
+#locations-row .c-legend_select .select2-choice:hover .select2-chosen {
+    color: #000 !important;
+}
+#locations-row .c-legend_select .select2-chosen {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-weight: 500;
+}
+#locations-row .c-legend .select2-dropdown-open .select2-choice {
+    border-color: #fff !important;
+    background-color: #fff !important;
+    color: #000 !important;
+}
+#locations-row .c-legend .select2-dropdown-open .select2-arrow b:after {
+    border-bottom-color: #666 !important;
+}
+#locations-row .c-legend .select2-dropdown-open .select2-chosen {
+    color: #000 !important;
+}
+#locations-row .c-legend_venue {
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+@media (max-width: 1000px) {
+    #locations-row .c-legend_venue {
+        margin-top: 1rem;
+   }
+}
+#locations-row .c-legend_venue .diamond {
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    margin-right: 15px;
+    background: #f7f9f7;
+    transform: rotate(45deg);
+}
+.page-id-79 #select2-results-2 {
+    background-color: #fff;
+}
+.page-id-79 #select2-results-2 li {
+    border-bottom: 0;
+}
+.page-id-79 #select2-results-2 .select2-highlighted {
+    background-color: #fff;
+}
+.page-id-79 #select2-results-2 .select2-highlighted .select2-result-label {
+    color: #23404d;
+}
+.page-id-79 #select2-results-2 .select2-result-label {
+    color: #878787;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.gm-svpc div img {
+    position: relative !important;
+}
